@@ -1,10 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .container {
-  background-color: #ae1332;
+  background-color: var(--red);
   width: 1280px;
 }
 .contacts .container {
@@ -31,7 +26,7 @@
   line-height: 64px; /* 100% */
   letter-spacing: -1.28px;
   position: absolute;
-  translate: 0 -85px;
+  top: 0;
 }
 .contacts-images {
   margin-bottom: 80px;
@@ -65,7 +60,7 @@
 .contacts-btn {
   padding: 15px 35px;
   border-radius: 100px;
-  background-color: #9dc162;
+  background-color: var(--green2);
   border: none;
   height: 50px;
   position: absolute;
@@ -108,7 +103,8 @@ input::placeholder {
 }
 input:focus,
 input:active {
-  border: 2px solid #fff;
+  outline: 2px solid #fff;
+  border: none;
 }
 input:invalid {
   outline: 3px solid red;
