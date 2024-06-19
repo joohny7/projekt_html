@@ -17,42 +17,43 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
     
-    <link rel="stylesheet" href="/projekt_html/assets/index-a181c3f8.css">
+    <link rel="stylesheet" href="/projekt_html/assets/index-cef65f25.css">
   </head>
   <body>
     <link rel="stylesheet" href="../css/header.css" />
 
 <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">How It Works</a>
-      </li>
-
-      <li class="nav-item">
-        <a href="./fruits.html" class="nav-link">Fruits</a>
-      </li>
-      <li class="nav-item">
-        <a href="./contacts.html" class="nav-link">Contacts</a>
-      </li>
-    </ul>
-  </nav>
-  <div class="logo">
-    <svg class="logo-icon" width="16" height="16">
-      <use href="../images/icons.svg#icon-cube"></use>
-    </svg>
-    <p class="logo-text">Fresh harvest box</p>
+  <div class="container">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="./howitworks.html" class="nav-link">How It Works</a>
+        </li>
+        <li class="nav-item">
+          <a href="./fruits.html" class="nav-link">Fruits</a>
+        </li>
+        <li class="nav-item">
+          <a href="./contacts.html" class="nav-link">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="logo">
+      <svg class="logo-icon" width="16" height="16">
+        <use href="../images/icons.svg#icon-cube"></use>
+      </svg>
+      <p class="logo-text">Fresh harvest box</p>
+    </div>
+    <button class="btn menu">
+      <svg class="menu-icon" width="24" height="24">
+        <use href="../images/icons.svg#icon-hamburger"></use>
+      </svg>
+    </button>
+    <button class="btn basket">
+      <svg class="basket-icon" width="19" height="23">
+        <use href="../images/icons.svg#icon-basket"></use>
+      </svg>
+    </button>
   </div>
-  <button class="btn menu">
-    <svg class="menu-icon" width="24" height="24">
-      <use href="../images/icons.svg#icon-Facebook"></use>
-    </svg>
-  </button>
-  <button class="btn basket">
-    <svg class="basket-icon" width="19" height="23">
-      <use href="../images/icons.svg#icon-basket"></use>
-    </svg>
-  </button>
 </header>
 
 
@@ -229,8 +230,7 @@
 </section>
 
 
-    <link rel="stylesheet" href="../css/index.css" />
-<link rel="stylesheet" href="../css/contacts.css" />
+    <link rel="stylesheet" href="../css/contacts.css" />
 
 <section class="contacts">
   <div class="container">
@@ -371,6 +371,118 @@
 </footer>
 </body>
 
-    ENOENT: no such file or directory, open '/home/runner/work/projekt_html/projekt_html/src/partials/moda.html'
+    <link rel="stylesheet" href="../css/modal.css">
+
+<div class="modal-window">
+    <!--Your Order and Button-->
+    <div class="modal-top-div">
+    <p class="modal-paragraph">
+        Your Order
+    </p>
+
+    <button class="modal-close-button">
+        <svg width="24" height="24" class="modal-close-button-svg">
+            <use href="../images/icons.svg#icon-x"></use>
+        </svg>
+    </button>
+    </div>
+
+    <!--Cards-->
+    <div class="modal-cards-div">
+        <!--First card-->
+        <div class="modal-card">
+            <label class="modal-card-label">
+                Strawberry Basket
+            </label>
+
+            <p class="plant-paragraph">
+                Plant
+            </p>
+
+            <img 
+            srcset="../images/strawberry-basket.png x1, ../images/strawberry-basket@2x.png x2"
+            src="../images/strawberry-basket.png" 
+            alt="Basket of strawberries" 
+            class="fruit-image"
+            width="88"
+            height="95">
+
+            <input type="checkbox" name="" id="" class="card-checkbox">
+        </div>
+
+        <!--Second card-->
+        <div class="modal-card">
+            <label class="modal-card-label">
+                Apple Basket
+            </label>
+
+            <p class="plant-paragraph">
+                Plant
+            </p>
+
+            <img 
+            srcset="../images/apple-basket.png x1, ../images/apple-basket@2x.png x2"
+            src="../images/apple-basket.png" 
+            alt="Basket of apples" 
+            class="fruit-image"
+            width="88"
+            height="95">
+
+            <input type="checkbox" name="" id="" class="card-checkbox">
+        </div>
+
+        <!--Third card-->
+        <div class="modal-card">
+            <label class="modal-card-label">
+                Fruits Basket
+            </label>
+
+            <p class="plant-paragraph">
+                Plant
+            </p>
+
+            <img
+            srcset="../images/fruits-basket.png x1, ../images/fruits-basket.png x2" 
+            src="../images/fruits-basket.png" 
+            alt="Basket of different fruits" 
+            class="fruit-image"
+            width="88"
+            height="95">
+
+            <input type="checkbox" name="" id="" class="card-checkbox">
+        </div>
+    </div>
+
+    <!--Form-->
+    <form>
+        <!--Name Input-->
+        <div class="modal-input-div">
+            <input type="text" name="input-name" id="input-name" class="modal-input" placeholder="Enter full name...">
+        </div>
+
+        <!--Email Input-->
+        <div class="modal-input-div">
+            <input type="text" name="input-email" id="input-email" class="modal-input" placeholder="Enter email...">
+        </div>
+
+        <!--Card Input-->
+        <div class="modal-input-div">
+            <input type="text" name="input-card" id="input-card" class="modal-input" placeholder="Enter card..">
+        </div>
+
+        <!--TextArea-->
+        <div class="modal-textarea-div">
+            <textarea name="modal-textarea" id="modal-textarea" placeholder="Enter comments..." class="modal-textarea"></textarea>
+        </div>
+
+        <!--Submit Button-->
+        <button type="submit" class="modal-sumbit-button">
+            Submit
+        </button>
+    </form>
+
+</div>
+
+
   </body>
 </html>
