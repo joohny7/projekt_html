@@ -1,25 +1,38 @@
-<!-- I think the links below might need to be removed from this section once this html is included in the public one -->
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link
-  href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap"
-  rel="stylesheet"
-/>
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
-/>
-<link rel="stylesheet" href="../css/styles.css" />
 <link rel="stylesheet" href="../css/contacts.css" />
 
 <section class="contacts">
   <div class="container">
     <div class="heading-and-images">
-      <h2 class="contacts-heading">
-        Fresh harvest box has <br />
-        got you covered
-      </h2>
-      <div class="contacts-images">
+      <h2 class="contacts-heading">Fresh harvest box has got you covered</h2>
+
+      <img
+        class="melon-image-mobile"
+        srcset="../images/melon-tablet.png 1x, ../images/melon-tablet@2x.png 2x"
+        src="../images/melon-tablet.png"
+        alt="A melon with a quarter cut out"
+      />
+
+      <div class="contacts-images tablet">
+        <img
+          class="melon-image-tablet"
+          srcset="
+            ../images/melon-tablet.png    1x,
+            ../images/melon-tablet@2x.png 2x
+          "
+          src="../images/melon-tablet.png"
+          alt="melon with a quarter cut out"
+        />
+        <img
+          class="blueberries-image-tablet"
+          srcset="
+            ../images/blueberries-tablet.png    1x,
+            ../images/blueberries-tablet@2x.png 2x
+          "
+          scr="../images/blueberries-tablet.png"
+          alt="Blueberries closeup"
+        />
+      </div>
+      <div class="contacts-images desktop">
         <img
           class="melon-image"
           srcset="
@@ -40,6 +53,7 @@
         />
       </div>
     </div>
+
     <div class="contacts-form">
       <p class="contacts-paragraph">
         Our boxes are packed with delicious, nutritious fruits and vegetables,
