@@ -1,8 +1,3 @@
-/* TEN BODY DO USUNIĘCIA*/
-body {
-    background-color: gray;
-}
-
 /* Other */
 .visually-hidden {
     opacity: 0; 
@@ -25,7 +20,8 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     min-width: 335px;
-    min-height: 903px;
+    max-height: 903px;
+    height: 100%;
     background-color: #FFFFFF;
     border-radius: 20px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -90,7 +86,8 @@ body {
 .modal-card {
     position: relative;
     display: flex;
-    min-width: 295px;
+    max-width: 295px;
+    width: 100%;
     height: 119px;
     border-radius: 20px;
     background-color: #F8766B;
@@ -324,4 +321,128 @@ body {
     text-align: center;
     align-self: center;
     color: #FFFFFF;
+}
+
+/* Tablet */
+@media (768px <= width < 1280px) {
+    .modal-window {
+        min-width: 704px;
+        max-width: 1150px;
+        max-height: 853px;
+        height: 100%;
+        width: 90%;
+    }
+
+    .modal-cards-div {
+        flex-direction: row;
+    }
+
+    .modal-card {
+        flex-direction: column;
+        max-width: 200px;
+        width: 100%;
+        height: 250px;
+    }
+
+    .modal-checkbox-span {
+        left: 166px;
+    }
+
+    .modal-card-basket-paragraph {
+        top: 40px;
+        left: 20px;
+    }
+
+    .plant-paragraph {
+        top: 66px;
+        left: 20px;
+    }
+
+    .strawberry-image {
+        top: 88px;
+        left: 34px;
+        width: 133px;
+        height: 148px;
+    }
+
+    .apple-image {
+        width: 172px;
+        height: 148px;
+        top: 88px;
+        left: 14px;
+    }
+
+    .fruits-image {
+        width: 172px;
+        height: 148px;
+        top: 88px;
+        left: 20px;
+    }
+
+    .modal-inputs-container {
+        width: 360px;
+        height: 399px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1280px) {
+    .modal-window {
+        min-width: 891px;
+        max-width: 1440px;
+        max-height: 911px;
+        height: 90%;
+        width: 80%;
+    }
+
+    .modal-cards-div {
+        flex-direction: row;
+    }
+
+    .modal-card {
+        flex-direction: column;
+        max-width: 200px;
+        width: 100%;
+        height: 250px;
+    }
+
+    .modal-checkbox-span {
+        left: 166px;
+    }
+
+    .modal-card-basket-paragraph {
+        top: 40px;
+        left: 20px;
+    }
+
+    .plant-paragraph {
+        top: 66px;
+        left: 20px;
+    }
+
+    .strawberry-image {
+        top: 88px;
+        left: 34px;
+        width: 133px;
+        height: 148px;
+    }
+
+    .apple-image {
+        width: 172px;
+        height: 148px;
+        top: 88px;
+        left: 14px;
+    }
+
+    .fruits-image {
+        width: 172px;
+        height: 148px;
+        top: 88px;
+        left: 20px;
+    }
+
+    .modal-inputs-container {
+        width: 360px;
+        height: 399px;
+    }
 }
