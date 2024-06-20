@@ -1,0 +1,115 @@
+.container {
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background-color: #ae1332;
+}
+
+.next-heading {
+    font-family: DM Sans;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    font-family: DM Sans;
+    color: #ffffff;
+    max-width: 335px;
+    max-height: 118px;
+    gap: 0px;
+    opacity: 0px;
+    box-shadow: 0px 4px 70px 0px #0000001a;
+}
+
+.fruit-paragraph {
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    box-shadow: 0px 4px 70px 0px #0000001a;
+    color: #ffffff;
+}
+
+.second-container {
+    padding-inline-start: 0px;
+    padding-top: 44px;
+}
+
+.next-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.list {
+    width: 335px;
+    height: 112px;
+
+    border-radius: 20px;
+    opacity: 0px;
+    background-color: #ffffff;
+    list-style: none;
+    display: flex;
+}
+
+.first-step {
+    width: 136px;
+    height: 48px;
+    gap: 10px;
+    border-radius: 200px;
+    opacity: 0px;
+    background-color: #ae1332;
+    margin: 32px 20px;
+    display: block;
+}
+
+.second-step {
+    width: 136px;
+    height: 48px;
+    gap: 10px;
+    border-radius: 200px;
+    opacity: 0px;
+    background-color: #a1c864;
+    margin: 32px 20px;
+}
+
+.third-step {
+    width: 136px;
+    height: 48px;
+    gap: 10px;
+    border-radius: 200px;
+    opacity: 0px;
+    background-color: #f5ce13;
+    margin: 32px 20px;
+}
+
+.header {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    gap: 0px;
+    opacity: 0px;
+    color: #ffffff;
+}
+
+.play {
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #000000;
+}
+
+.picture {
+    padding-top: 100px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+}
