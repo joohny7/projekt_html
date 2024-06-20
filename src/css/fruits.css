@@ -138,7 +138,6 @@ h3 {
 	gap: 24px;
 	margin: 44px auto;
 	padding: 0;
-	position: absolute;
 	top: 156px;
 	left: 32px;
 }
@@ -167,6 +166,7 @@ h2 {
 		left: 20px;
 		flex-wrap: wrap;
 		align-items: center;
+		position: absolute;
 	}
 
 	.plums,
@@ -218,11 +218,9 @@ h2 {
 	.organic {
 		display: flex;
 		max-width: 624px;
-		margin: 0;
 		text-align: center;
-		left: 72px;
+		margin: 0 72px;
 		align-items: center;
-		position: absolute;
 		gap: 14px;
 	}
 
@@ -233,6 +231,7 @@ h2 {
 		flex-wrap: wrap;
 		align-items: center;
 		margin: auto;
+		
 	}
 
 	.box {
@@ -243,6 +242,10 @@ h2 {
 		left: 25px;
 		top: 137px;
 		margin: auto;
+		max-width: 768px;
+	}
+
+	.fruits {
 		max-width: 768px;
 	}
 }
