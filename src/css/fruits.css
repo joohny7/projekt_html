@@ -63,7 +63,8 @@ h3 {
 
 .white_box {
 	display: flex;
-	width: 136px;
+	/* width: 136px; */
+  width: 141px;
 	height: 48px;
 	top: 393px;
 	left: 24px;
@@ -75,7 +76,7 @@ h3 {
 
 .price {
 	margin: 12px 21px;
-	width: 94px;
+	/* width: 94px; */
 	height: 24px;
 	font-family: DM Sans;
 	font-size: 18px;
