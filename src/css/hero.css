@@ -82,7 +82,7 @@
     }
 }
 
-@media (min-width: 375px) and (max-width: 767px) {
+@media (min-width: 1px) and (max-width: 767px) {
 
     .container {
         /* width: 704px; */
@@ -128,7 +128,7 @@
 /*========HERO========*/
 
 
-@media (min-width: 375px) and (max-width: 767px) {
+@media (min-width: 1px) and (max-width: 767px) {
     /* .container 
 { 
     margin: 0 auto;
