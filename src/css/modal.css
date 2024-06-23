@@ -20,12 +20,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
     min-width: 335px;
-    max-height: 903px;
-    height: 100%;
     background-color: #FFFFFF;
     border-radius: 20px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 90px 20px 5px 20px;
+    padding: 88px 20px 5px 20px;
     margin: 0;
 }
 
@@ -44,7 +42,7 @@
     top: 20px;
     left: 20px;
     min-width: 163px;
-    height: 28px;
+    min-height: 28px;
     resize: both;
     font-family: "DM Sans";
     font-weight: 500;
@@ -245,6 +243,7 @@
     cursor: pointer;
     background-color: rgba(157, 193, 98, 1);
     border: none;
+    margin-bottom: 20px;
 }
 
 /* Thank You Window */
@@ -327,10 +326,41 @@
 @media (768px <= width < 1280px) {
     .modal-window {
         min-width: 704px;
-        max-width: 1150px;
-        max-height: 853px;
-        height: 100%;
-        width: 90%;
+        padding: 90px 20px 20px 20px;
+        background-image: image-set(url(../images/woman-bananas.png) 1x,
+                                    url(../images/woman-bananas@2x.png) 2x);     
+        background-repeat: no-repeat;
+        background-position-x: 408px;
+        background-position-y: 378px;
+    }
+
+    .modal-top-div {
+        margin-bottom: 35px;
+    }
+
+    .modal-close-button-svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .modal-checkbox-span {
+        width: 20px;
+        height: 20px;
+        left: 166px;
+    }
+
+    .modal-checkbox-span-svg {
+        width: 8px;
+        height: 8px;
+    }
+
+    .modal-paragraph {
+        top: 40px;
+        left: 40px;
+        font-size: 40px;
+        line-height: 44px;
+        min-width: 232px;
+        min-height: 44px;
     }
 
     .modal-cards-div {
@@ -342,10 +372,6 @@
         max-width: 200px;
         width: 100%;
         height: 250px;
-    }
-
-    .modal-checkbox-span {
-        left: 166px;
     }
 
     .modal-card-basket-paragraph {
@@ -382,6 +408,39 @@
     .modal-inputs-container {
         width: 360px;
         height: 399px;
+        margin-left: 20px;
+    }
+
+    .modal-sumbit-button {
+        min-width: 114px;
+        height: 48px;
+    }
+
+    .modal-thank-you-window {
+        min-width: 600px;
+        min-height: 545px;
+    }
+
+    .raspberries-img {
+        width: 278px;
+        height: 239px;
+        top: 68px;
+        left: 161px;
+    }
+
+    .thank-you-paragraph-div {
+        top: 335px;
+    }
+
+    .thank-you-first-paragraph {
+        width: 209px;
+        height: 44px;
+        text-align: center;
+    }
+    
+    .thank-you-second-paragraph {
+        width: 391px;
+        height: 72px;
     }
 }
 
@@ -389,60 +448,125 @@
 @media (min-width: 1280px) {
     .modal-window {
         min-width: 891px;
-        max-width: 1440px;
-        max-height: 911px;
-        height: 90%;
-        width: 80%;
+        padding: 90px 20px 20px 20px;
+        background-image: image-set(url(../images/woman-bananas.png) 1x,
+                                    url(../images/woman-bananas@2x.png) 2x);     
+        background-repeat: no-repeat;
+        background-position-x: 420px;
+        background-position-y: 435px;
+    }
+
+    .modal-top-div {
+        margin-bottom: 35px;
+    }
+
+    .modal-close-button-svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .modal-checkbox-span {
+        width: 20px;
+        height: 20px;
+        left: 223px;
+    }
+
+    .modal-checkbox-span-svg {
+        width: 10px;
+        height: 10px;
+    }
+
+    .modal-paragraph {
+        top: 40px;
+        left: 30px;
+        font-size: 40px;
+        line-height: 44px;
+        min-width: 232px;
+        min-height: 44px;
     }
 
     .modal-cards-div {
         flex-direction: row;
+        gap: 20px
     }
 
     .modal-card {
         flex-direction: column;
-        max-width: 200px;
+        max-width: 257px;
         width: 100%;
-        height: 250px;
-    }
-
-    .modal-checkbox-span {
-        left: 166px;
+        height: 308px;
     }
 
     .modal-card-basket-paragraph {
         top: 40px;
         left: 20px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
     }
 
     .plant-paragraph {
-        top: 66px;
+        top: 76px;
         left: 20px;
+        font-weight: 400;
     }
 
     .strawberry-image {
-        top: 88px;
-        left: 34px;
-        width: 133px;
-        height: 148px;
+        width: 173px;
+        height: 196px;
+        top: 98px;
+        left: 42px;
     }
 
     .apple-image {
-        width: 172px;
-        height: 148px;
-        top: 88px;
+        width: 229px;
+        height: 196px;
+        top: 98px;
         left: 14px;
     }
 
     .fruits-image {
-        width: 172px;
-        height: 148px;
-        top: 88px;
-        left: 20px;
+        width: 229px;
+        height: 196px;
+        top: 98px;
+        left: 14px;
     }
 
     .modal-inputs-container {
         width: 360px;
         height: 399px;
+        margin-left: 20px;
+    }
+
+    .modal-sumbit-button {
+        min-width: 114px;
+        height: 48px;
+    }
+
+    .modal-thank-you-window {
+        min-width: 600px;
+        min-height: 545px;
+    }
+
+    .raspberries-img {
+        width: 278px;
+        height: 239px;
+        top: 68px;
+        left: 161px;
+    }
+
+    .thank-you-paragraph-div {
+        top: 335px;
+    }
+
+    .thank-you-first-paragraph {
+        width: 209px;
+        height: 44px;
+        text-align: center;
+    }
+    
+    .thank-you-second-paragraph {
+        width: 391px;
+        height: 72px;
     }
 }
