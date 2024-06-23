@@ -1,15 +1,4 @@
-*{margin: 0;
-padding: 0;}
-.body{
-    background-color: #AE1332;
-}
 .logo{
-    position: relative;
-    width: 16px;
-    height: 16px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
     background-color: #AE1332;}
 .footer-link{
     color: #AE1332;
@@ -41,13 +30,13 @@ padding: 0;}
     text-align: center;
     gap: 20px;}
 .ul{
-    list-style-type: none;
+    list-style: none;
     margin: 0;
     padding: 0;}
 .footer-media-list{
     display: flex;
     align-items: center;
-    color:#AE1332;
+    color: #AE1332;
     gap: 20px;}
 .contact-link{
     color: #AE1332;
