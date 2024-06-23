@@ -1,5 +1,5 @@
 @media (min-width: 375px) {
-  .contain {
+  .howitworks-container {
     width: 375px;
     align-items: center;
   }
@@ -117,7 +117,7 @@
 }
 
 @media (min-width: 768px) {
-  .contain {
+  .howitworks-container {
     width: 768px;
     align-items: center;
   }
@@ -215,7 +215,7 @@
 }
 
 @media (min-width: 1200px) {
-  .contain {
+  .howitworks-container {
     width: 1200px;
     align-items: center;
   }
