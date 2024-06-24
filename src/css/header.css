@@ -22,7 +22,7 @@
   background-color: var(--white);
 }
 
-.logo {
+.header-logo {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -73,7 +73,7 @@
     text-decoration: none;
   }
 
-  .logo {
+  .header-logo {
     margin-left: 94px;
     margin-right: 226px;
   }
@@ -92,7 +92,7 @@
 
 @media screen and (min-width: 1280px) {
 
-.logo {
+.header-logo {
   margin-left: 322px;
   margin-right: 502px;
 }
