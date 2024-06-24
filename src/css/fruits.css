@@ -103,6 +103,15 @@ h3 {
 	margin-top: 0;
 }
 
+.container {
+	margin: 0 auto;
+	padding: 0 32px;
+	max-width: 1216px;
+	display: flex;
+	flex-direction: column;
+	gap: 0;
+}
+
 .fruit {
 	position: absolute;
 	top: 137px;
@@ -127,6 +136,7 @@ h3 {
 	margin-left: 328px;
 	margin-right: 328px;
 	text-align: center;
+	margin-bottom: 44px;
 }
 
 .list_fruits {
@@ -135,9 +145,8 @@ h3 {
 	align-items: center;
 	justify-content: center;
 	width: 1215px;
-	height: 1443px;
 	gap: 24px;
-	margin: 44px auto;
+	margin: 0 auto;
 	padding: 0;
 	top: 156px;
 	left: 32px;
@@ -155,10 +164,82 @@ h2 {
 	justify-content: center;
 }
 
+.fruit_btn {
+	width: 114px;
+	height: 114px;
+	border-radius: 100%;
+	background-color: #98b37e;
+	margin: 44px 551px 0 551px;
+	display: flex;
+	flex-direction: row;
+}
+
+.text_btn {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: -0.04em;
+	text-align: center;
+	width: 57px;
+	height: 24px;
+	rotate: -14deg;
+	color: #ffffff;
+	top: 38px;
+	left: 18px;
+	position: relative;
+}
+
+.arrow-button-svg {
+	fill: #ffffff;
+	top: 61.08px;
+	left: 18px;
+	position: relative;
+	text-align: center;
+}
+
 /*mobile min-width 375px and max-width 767px*/
 @media screen and (min-width: 375px) and (max-width: 767px) {
 	.list_fruits > li {
 		list-style-type: none;
+	}
+
+	.arrow-button-svg {
+		fill: #ffffff;
+		top: 40px;
+		left: 6.98px;
+		position: relative;
+		text-align: center;
+	}
+
+	.fruit_btn {
+		width: 80px;
+		height: 80px;
+		border-radius: 100%;
+		background-color: #98b37e;
+		margin: 44px 127px 0 128px;
+		gap: 4px;
+	}
+
+	.text_btn {
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 18px;
+		letter-spacing: -0.04em;
+		text-align: center;
+		width: 44px;
+		height: 18px;
+		rotate: -14deg;
+		color: #ffffff;
+		top: 26px;
+		left: 7px;
+		position: relative;
+	}
+
+	.container {
+		margin: 0 auto;
+		padding: 0 20px;
+		width: 335px;
+		gap: 0;
 	}
 
 	.list_fruits {
@@ -167,7 +248,6 @@ h2 {
 		left: 20px;
 		flex-wrap: wrap;
 		align-items: center;
-		position: absolute;
 	}
 
 	.plums,
@@ -176,11 +256,6 @@ h2 {
 		display: none;
 	}
 
-	.fruits {
-		max-width: 335px;
-		margin: 0 20px;
-		display: flex;
-	}
 	.organic {
 		display: flex;
 		max-width: 335px;
@@ -188,7 +263,8 @@ h2 {
 		text-align: center;
 		left: 20px;
 		align-items: center;
-		position: absolute;
+		margin-top: 80px;
+		margin-bottom: 44px;
 	}
 
 	.box {
@@ -212,6 +288,31 @@ h2 {
 		list-style-type: none;
 	}
 
+	.arrow-button-svg {
+		fill: #ffffff;
+		top: 61.08px;
+		left: 18px;
+		position: relative;
+		text-align: center;
+	}
+
+	.fruit_btn {
+		width: 114px;
+		height: 114px;
+		border-radius: 100%;
+		background-color: #98b37e;
+		margin: 44px 327px 0 327px;
+		gap: 4px;
+	}
+
+	 .container {
+		flex-direction: column;
+		margin: 0 auto;
+		display: flex;
+		max-width: 768px;
+		padding: 0 32px;
+	}
+
 	.kiwi {
 		display: none;
 	}
@@ -223,6 +324,7 @@ h2 {
 		margin: 0 72px;
 		align-items: center;
 		gap: 14px;
+		margin-bottom: 44px;
 	}
 
 	.list_fruits {
@@ -231,7 +333,7 @@ h2 {
 		left: 32px;
 		flex-wrap: wrap;
 		align-items: center;
-		/* margin: auto; */
+		margin-top: 0;
 		
 	}
 
@@ -243,10 +345,24 @@ h2 {
 		left: 25px;
 		top: 137px;
 		margin: auto;
-		max-width: 768px;
 	}
 
 	.fruits {
 		max-width: 768px;
+	}
+
+	.text_btn {
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 24px;
+		letter-spacing: -0.04em;
+		text-align: center;
+		width: 57px;
+		height: 24px;
+		rotate: -14deg;
+		color: #ffffff;
+		top: 38px;
+		left: 18px;
+		position: relative;
 	}
 }
