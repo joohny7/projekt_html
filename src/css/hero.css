@@ -5,13 +5,12 @@
 @media (min-width: 1280px) {
 
     .container {
-        width: 1216px;
+        width: 1280px;
         margin: 0 auto;
-        padding: 0 15px 0 15px;
+        padding: 0 32px 0 32px;
     }
 
     .modal-btn {
-        font-family: DM Sans;
         font-weight: 500;
         font-size: 28px;
         line-height: 1.0;
@@ -23,13 +22,11 @@
         cursor: pointer;
         transform: rotate(-14deg);
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        position: absolute;
         min-width: 114px;
         height: 114px;
         border-radius: 50%;
-        margin-top: -99px;
-        margin-left: 186px;
-
+        margin-top: -69px;
+        margin-left: 173px;
     }
 
     .modal-btn a {
@@ -45,13 +42,12 @@
 @media (min-width: 768px) and (max-width: 1279px) {
 
     .container {
-        /* width: 704px; */
+        width: 768px;
         margin: 0 auto;
-        padding: 0 15px 0 15px;
+        padding: 0 32px 0 32px;
     }
 
     .modal-btn {
-        font-family: DM Sans;
         font-weight: 500;
         font-size: 28px;
         line-height: 1.0;
@@ -63,12 +59,11 @@
         cursor: pointer;
         transform: rotate(-14deg);
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        position: absolute;
         min-width: 114px;
         height: 114px;
         border-radius: 50%;
-        margin-top: -99px;
-        margin-left: 186px;
+        margin-top: -69px;
+        margin-left: 176px;
 
     }
 
@@ -82,16 +77,16 @@
     }
 }
 
-@media (min-width: 1px) and (max-width: 767px) {
+@media (max-width: 767px) {
 
     .container {
-        /* width: 704px; */
+        width: 375px;
         margin: 0 auto;
-        padding: 0 15px 0 15px;
+        padding: 0 32px 0 32px;
     }
 
     .modal-btn {
-        font-family: DM Sans;
+        /* font-family: DM Sans; */
         font-weight: 500;
         font-size: 20px;
         line-height: 1.0;
@@ -103,12 +98,12 @@
         cursor: pointer;
         transform: rotate(-14deg);
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        position: absolute;
+        /* position: absolute; */
         min-width: 80px;
         height: 80px;
         border-radius: 50%;
         margin-top: -56px;
-        margin-left: 133px;
+        margin-left: 119px;
     }
 
     .modal-btn a {
@@ -128,16 +123,7 @@
 /*========HERO========*/
 
 
-@media (min-width: 1px) and (max-width: 767px) {
-    /* .container 
-{ 
-    margin: 0 auto;
-}  */
-
-    /* .hero-central 
-{
-    margin-top: 105px;
-} */
+@media (max-width: 767px) {
 
     .hero .container {
         display: flex;
@@ -147,26 +133,28 @@
 
     .hero-text {
 
-        margin-top: -551px;
+        margin-top: -576px;
         display: flex;
-        flex-direction: row-reverse;
-        position: relative;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        /* position: relative; */
     }
 
     .hero-img-right {
         width: 56px;
         height: 56px;
-        position: absolute;
-        margin-top: -1px;
-        margin-right: -10px;
+        /* position: absolute; */
+        margin-top: -120px;
+        margin-left: 280px;
         z-index: 1;
     }
 
     .hero-img-left {
         width: 66px;
         height: 44px;
-        position: absolute;
-        margin-top: 53px;
+        /* position: absolute; */
+        margin-top: 6px;
         margin-right: 275px;
         z-index: 1;
         transform: rotate(15deg);
@@ -181,21 +169,42 @@
         text-transform: uppercase;
         text-align: center;
         color: #FFFFFF;
-        position: relative;
+        /* position: relative; */
         z-index: 2;
     }
 
     .hero-central {
         margin-top: 105px;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hero-central:before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: -1px;
+        width: calc(100% + 2px);
+        height: calc(100% + -25px);
+        border-radius: 571px;
+        box-sizing: border-box;
+        border: 1px solid transparent;
+        background: linear-gradient(to top, white, rgba(255, 255, 255, 0));
+        -webkit-mask:
+            linear-gradient(white, white) content-box,
+            linear-gradient(white, white);
+        -webkit-mask-composite: destination-out;
+        mask-composite: exclude;
     }
 
     .hero-img {
         width: 335px;
         height: 509px;
-        position: relative;
+        /* position: relative; */
         padding: 11px 12px 14px 12px;
-        border: 1px solid white;
-        border-radius: 250px;
+        /* border: 1px solid white; */
+        /* border-radius: 250px; */
     }
 
     .hero-card-left {
@@ -217,7 +226,7 @@
         color: #FFFFFF;
         max-width: 222px;
         margin-bottom: 44px;
-        max-width: 243px;
+        max-width: 279px;
     }
 
     .card-left {
@@ -279,7 +288,7 @@
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        margin-bottom: 44px;
+        /* margin-bottom: 44px; */
         margin-top: 44px;
     }
 
@@ -364,7 +373,6 @@
         border: 1px solid #FFFFFF;
     }
 
-
 }
 
 @media (min-width: 768px) and (max-width: 1279px) {
@@ -377,34 +385,32 @@
     }
 
     .hero-text {
-
-        margin-top: -734px;
+        margin-top: -784px;
         display: flex;
-        flex-direction: row-reverse;
-        position: relative;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
     }
 
     .hero-img-right {
         width: 108px;
         height: 108px;
-        position: absolute;
-        margin-top: -15px;
-        margin-right: -15px;
+        margin-top: -175px;
+        margin-left: 550px;
         z-index: 1;
     }
 
     .hero-img-left {
         width: 132px;
         height: 90px;
-        position: absolute;
-        margin-top: 104px;
-        margin-right: 605px;
+        margin-top: 9px;
+        margin-left: 10px;
         z-index: 1;
         transform: rotate(10deg);
     }
 
     .main-header {
-        max-width: 744px;
+        max-width: 654px;
         font-size: 50px;
         font-weight: 500;
         line-height: 1.08;
@@ -412,27 +418,42 @@
         text-transform: uppercase;
         text-align: center;
         color: #FFFFFF;
-        position: relative;
         z-index: 2;
     }
 
     .hero-central {
         margin-top: 99px;
+        position: relative;
+    }
+
+    .hero-central:before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: -1px;
+        width: calc(100% + 2px);
+        height: calc(100% + -47px);
+        border-radius: 571px;
+        box-sizing: border-box;
+        border: 1px solid transparent;
+        background: linear-gradient(to top, white, rgba(255, 255, 255, 0));
+        -webkit-mask:
+            linear-gradient(white, white) content-box,
+            linear-gradient(white, white);
+        -webkit-mask-composite: destination-out;
+        mask-composite: exclude;
     }
 
     .hero-img {
         width: 452px;
         height: 702px;
-        position: relative;
         padding: 23px 17px 17px 17px;
-        border: 1px solid white;
-        border-radius: 250px;
     }
 
     .hero-card-left {
         width: 279px;
         height: 387px;
-        margin-right: 358px;
+        margin-right: 398px;
         margin-top: 659px;
         display: flex;
         flex-wrap: wrap;
@@ -503,7 +524,6 @@
         width: 249px;
         height: 387px;
         background-color: #F5CE13;
-        ;
         border-radius: 500px;
         display: flex;
         flex-direction: column;
@@ -593,56 +613,44 @@
         border: 1px solid #FFFFFF;
     }
 
-
-
-
-
-
 }
 
 
 @media (min-width: 1280px) {
+
     .hero .container {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .hero {
-        max-width: 1440px;
-        height: 1097px;
-        background-color: #AE1332;
-    }
-
     .hero-text {
-        /* max-width: 898px; */
-        margin-top: -748px;
+        margin-top: -787px;
         display: flex;
-        flex-direction: row-reverse;
-        position: relative;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center
     }
 
     .hero-img-right {
         width: 120px;
         height: 120px;
-        position: absolute;
-        margin-top: -30px;
-        margin-right: 10px;
+        margin-top: -221px;
+        margin-left: 691px;
         z-index: 1;
     }
 
     .hero-img-left {
         width: 183px;
         height: 124px;
-        position: absolute;
-        margin-top: 120px;
-        margin-right: 729px;
+        margin-top: 30px;
+        margin-left: 25px;
         z-index: 1;
         transform: rotate(10deg);
     }
 
     .main-header {
-        max-width: 930px;
+        max-width: 842px;
         font-size: 64px;
         font-weight: 500;
         line-height: 1.0;
@@ -650,51 +658,47 @@
         text-transform: uppercase;
         text-align: center;
         color: #FFFFFF;
-        position: relative;
         z-index: 2;
     }
 
     .hero-central {
         margin-top: 102px;
+        position: relative;
     }
 
-    /* .hero-central:before 
-{
-    content: "";
-    position: absolute;
-    top: -17px;
-    left: -17px;
-    width: calc(100% + 34px);
-    height: calc(100% + 34px);
-    border-radius: 571px;
-    box-sizing: border-box;
-    border: 1px solid transparent;
-    background: linear-gradient(to top, white, rgba(255, 255, 255, 0));
-    -webkit-mask:
-        linear-gradient(white, white) content-box,
-        linear-gradient(white, white);
-    -webkit-mask-composite: destination-out;
-    mask-composite: exclude;
-} */
+    .hero-central:before {
+        content: "";
+        position: absolute;
+        top: 1px;
+        left: 0px;
+        width: calc(100% + 1px);
+        height: calc(100% + -49px);
+        border-radius: 571px;
+        box-sizing: border-box;
+        border: 1px solid transparent;
+        background: linear-gradient(to top, white, rgba(255, 255, 255, 0));
+        -webkit-mask:
+            linear-gradient(white, white) content-box,
+            linear-gradient(white, white);
+        -webkit-mask-composite: destination-out;
+        mask-composite: exclude;
+    }
 
     .hero-img {
         width: 452px;
         height: 702px;
-        position: relative;
         padding: 20px 17px 20px 17px;
-        border: 1px solid white;
-        border-radius: 250px;
     }
+
 
     .hero-card-left {
         width: 249px;
         height: 539px;
         margin-right: 864px;
-        margin-top: 146px;
+        margin-top: 87px;
     }
 
     .hero-card-text {
-        font-family: DM Sans;
         font-size: 14px;
         line-height: 1.28;
         letter-spacing: -0.04em;
@@ -715,7 +719,6 @@
     }
 
     .card-left-header {
-        font-family: DM Sans;
         font-size: 12px;
         font-weight: 400;
         line-height: 14px;
@@ -728,9 +731,7 @@
         height: 172px;
     }
 
-
     .card-left-text {
-        font-family: DM Sans;
         font-size: 12px;
         font-weight: 500;
         line-height: 1.17;
@@ -748,7 +749,7 @@
         flex-direction: column;
         align-items: flex-end;
         margin-left: 864px;
-        margin-top: -600px;
+        margin-top: -605px;
     }
 
     .card-right {
@@ -765,7 +766,6 @@
     }
 
     .card-right-header {
-        font-family: DM Sans;
         font-size: 12px;
         font-weight: 400;
         line-height: 14px;
@@ -779,7 +779,6 @@
     }
 
     .card-right-text {
-        font-family: DM Sans;
         font-size: 12px;
         font-weight: 500;
         line-height: 1.17;
@@ -801,7 +800,6 @@
     }
 
     .card-text {
-        font-family: DM Sans;
         font-size: 12px;
         font-weight: 500;
         line-height: 14px;
@@ -810,7 +808,6 @@
         color: #FFFFFF;
         text-transform: uppercase;
         box-shadow: 0px 4px 70px 0px #0000001A;
-
     }
 
     .card-list-org {
@@ -849,4 +846,4 @@
 /*========END-HERO========*/
 
 
-/* == END-PROJECT-Fresh-Harvest-Box===  */
+/* === END-PROJECT-Fresh-Harvest-Box===   */
