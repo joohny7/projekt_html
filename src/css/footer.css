@@ -1,9 +1,19 @@
-*{margin: 0;
-padding: 0;}
-.body{
+/* Styles reset start */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.body   {
     background-color: #AE1332;
 }
-.logo{
+
+
+/* Mobile */
+
+.logo   {
     position: relative;
     width: 16px;
     height: 16px;
@@ -11,20 +21,23 @@ padding: 0;}
     top: 0px;
     position: absolute;
     background-color: #AE1332;}
-.footer-link{
+
+.footer-link    {
     color: #AE1332;
     font-size: 14px;
     font-family: DM Sans;
     font-weight: 400;
     line-height: 18px;
     word-wrap: break-word;}
-.footer-image{
+
+.footer-image   {
     width: 100%;
     height: 100%;
     border-radius: 100px;
     width: 335px;
     height: 172px;}
-.paragraf{
+
+.paragraf   {
     color: #AE1332;
     text-align: center;
     font-size: 14px;
@@ -33,23 +46,28 @@ padding: 0;}
     text-transform: uppercase;
     line-height: 18px;
     word-wrap: break-word;}
-.footer{
+
+.footer {
     background-color: #FFFFFF;
     align-items: center;}
-.footer-menu{
+
+.footer-menu    {
     display: flex;
     text-align: center;
     gap: 20px;}
-.ul{
+
+.ul {
     list-style-type: none;
     margin: 0;
     padding: 0;}
-.footer-media-list{
+
+.footer-media-list  {
     display: flex;
     align-items: center;
     color:#AE1332;
     gap: 20px;}
-.contact-link{
+
+.contact-link   {
     color: #AE1332;
     font-size: 14px;
     font-family: DM Sans;
@@ -57,10 +75,36 @@ padding: 0;}
     text-transform: uppercase;
     line-height: 18px;
     word-wrap: break-word;}
-.address-link{
+
+.address-link   {
     color: #AE1332;
     font-size: 14px;
     font-family: DM Sans;
     font-weight: 400;
     line-height: 18px;
     word-wrap: break-word;}
+
+
+/* Tablet */
+
+@media screen and (min-width: 768px;)   {
+  
+.footer-media   {
+margin-top: 118px;
+margin-left: 552px;
+Gap:44px;
+}
+
+}
+
+
+
+/* Destop */
+
+@media screen and (min-width: 1280px;)  {
+    
+.footer-container   {
+     display: flex
+    }
+
+}
