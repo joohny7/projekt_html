@@ -1,5 +1,3 @@
-
-
 /* Mobile */
 
 .logo   {
@@ -9,6 +7,7 @@
     left: 0px;
     top: 0px;
     position: absolute;
+
     background-color: #AE1332;}
 
 .footer-link    {
@@ -53,7 +52,7 @@
 .footer-media-list  {
     display: flex;
     align-items: center;
-    color:#AE1332;
+    color: #AE1332;
     gap: 20px;}
 
 .contact-link   {
@@ -72,7 +71,6 @@
     font-weight: 400;
     line-height: 18px;
     word-wrap: break-word;}
-
 
 /* Tablet */
 
