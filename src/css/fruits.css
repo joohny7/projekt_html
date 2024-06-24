@@ -106,7 +106,7 @@ h3 {
 .container {
 	margin: 0 auto;
 	padding: 0 32px;
-	width: 1216px;
+	max-width: 1216px;
 	display: flex;
 	flex-direction: column;
 	gap: 0;
@@ -170,6 +170,8 @@ h2 {
 	border-radius: 100%;
 	background-color: #98b37e;
 	margin: 44px 551px 0 551px;
+	display: flex;
+	flex-direction: row;
 }
 
 .text_btn {
@@ -181,6 +183,18 @@ h2 {
 	width: 57px;
 	height: 24px;
 	rotate: -14deg;
+	color: #ffffff;
+	top: 38px;
+	left: 18px;
+	position: relative;
+}
+
+.arrow-button-svg {
+	fill: #ffffff;
+	top: 61.08px;
+	left: 18px;
+	position: relative;
+	text-align: center;
 }
 
 /*mobile min-width 375px and max-width 767px*/
@@ -189,24 +203,36 @@ h2 {
 		list-style-type: none;
 	}
 
+	.arrow-button-svg {
+		fill: #ffffff;
+		top: 40px;
+		left: 6.98px;
+		position: relative;
+		text-align: center;
+	}
+
 	.fruit_btn {
 		width: 80px;
 		height: 80px;
 		border-radius: 100%;
 		background-color: #98b37e;
 		margin: 44px 127px 0 128px;
+		gap: 4px;
 	}
 
 	.text_btn {
-		font-size: 18px;
+		font-size: 14px;
 		font-weight: 500;
-		line-height: 24px;
+		line-height: 18px;
 		letter-spacing: -0.04em;
 		text-align: center;
 		width: 44px;
 		height: 18px;
 		rotate: -14deg;
 		color: #ffffff;
+		top: 26px;
+		left: 7px;
+		position: relative;
 	}
 
 	.container {
@@ -262,19 +288,28 @@ h2 {
 		list-style-type: none;
 	}
 
+	.arrow-button-svg {
+		fill: #ffffff;
+		top: 61.08px;
+		left: 18px;
+		position: relative;
+		text-align: center;
+	}
+
 	.fruit_btn {
 		width: 114px;
 		height: 114px;
 		border-radius: 100%;
 		background-color: #98b37e;
 		margin: 44px 327px 0 327px;
+		gap: 4px;
 	}
 
 	 .container {
 		flex-direction: column;
 		margin: 0 auto;
 		display: flex;
-		width: 768px;
+		max-width: 768px;
 		padding: 0 32px;
 	}
 
@@ -326,5 +361,8 @@ h2 {
 		height: 24px;
 		rotate: -14deg;
 		color: #ffffff;
+		top: 38px;
+		left: 18px;
+		position: relative;
 	}
 }
