@@ -94,7 +94,7 @@ Na przykład, oto link do wersji live dla tego repozytorium:
 [https://goitacademy.github.io/vanilla-app-template/](https://goitacademy.github.io/vanilla-app-template/).
 
 Jeśli widzisz pustą stronę, upewnij się, że w zakładce `Console` nie ma
-błędów związanych z nieprawidłowymi ścieżkami do plików CSS i JS projektu
+błędów związanych z nieprawidłowymi ścieżkami do plików CSS i Js projektu
 (**404**). Najprawdopodobniej masz nieprawidłową wartość flagi `--base`
 dla polecenia `build` w pliku `package.json`.
 
